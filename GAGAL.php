@@ -1,19 +1,19 @@
 <?php
 
-$username ="INDONESIA";
-$password ="74";
+$\033[31;1musername ="INDONESIA";
+$\033[37;1mpassword ="74";
 system('clear');
-echo "login dulu gan\n";
+echo "\033[32;1mlogin dulu gan\n";
 echo "username : ";
 $user = trim(fgets(STDIN));
 echo "password : ";
 $pass = trim(fgets(STDIN));
 if($user == $username && $pass == $password)
 {
-echo "login sukses\n";
+echo "\033[31;1mlogin sukses\n";
 sleep(2);
 system('clear');
-echo "TOOLS BERGUNA\n";
+echo "\033[31;1mTOOLS BERGUNA\n";
 echo "[1] Tools FB
 [2] Tools-C\n";
 echo "Pilih Nomor :  \n";
@@ -41,7 +41,7 @@ system('git clone https://github.com/cahyoluhur/CL');
 }
 else
 {
-echo "login gagal\n";
+echo "\033[32;1mlogin gagal\n";
 }
 
 ?>
